@@ -10,7 +10,7 @@ Future<void> main() async {
   await dotenv.load(fileName: ".env");
 
   // Initialize Firebase using .env variables
-  await initializeFirebase();   // <-- ONLY THIS, NOTHING ELSE
+  await initializeFirebase(); 
 
   runApp(const MyApp());
 }
